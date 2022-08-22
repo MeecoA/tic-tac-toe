@@ -1,0 +1,10 @@
+.gameBoard {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+
+.cells {
+    border: 1px solid red; 
+    width: 100px;
+    height: 100px;
+}

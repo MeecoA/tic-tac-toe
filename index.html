@@ -9,6 +9,34 @@
     <title>Tic-Tac-Toe</title>
 </head>
 <body>
-    <div class="gameBoard"></div>
+    <div class="main">
+        <div class="container-board">
+            <div class="game-title"><h1><span class="green">Tic</span><span class="red" >-Tac-</span><span class="green">Toe</span></h1></div>
+            <div class="turn-container"></div>
+            <div class="gameBoard"></div>
+            <div class="winner-modal">
+                <div class="winner-container"></div>
+                <div class="reset"><button class="resetButton">Again</button></div>
+            </div>
+             <div class="credits">&copy; MeecoA | The Odin Project</div>
+        </div>
+        <div  id = "introContainer" class="intro-container">
+            <div class="input-container">
+                <div class="intro-title input-items"><h1>Play <span class="green">Tic</span><span class="red" >-Tac-</span><span class="green">Toe</h1></div>
+                <div class="x-input-container input-items"> 
+                    <label for="xInput">Player <b>X</b>  : </label><input type="text" id="xInput" placeholder="Enter Player Name">
+                </div>
+                <div class="x-input-container input-items">
+                    <label for="xInput">Player <b>O</b> : </label><input type="text" id="oInput" placeholder="Enter Player Name">
+                </div>
+                <div class="play-container input-items">
+                    <button class="playButton">Play</button>
+                </div>
+                <div class="credits">&copy; MeecoA | The Odin Project</div>
+            </div>
+        </div>
+    </div>
+    
+   
 </body>
 </html>
